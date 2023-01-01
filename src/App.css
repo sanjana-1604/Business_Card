@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+* {
+  margin :0px;
+  padding:0px;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body{
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Inter', sans-serif;
+  background: #1A1B21;
+  padding:10px;
+}
+.App
+{
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  
+width:317px;
+}
+.infosection
+{
+  
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+ text-align: center;
+   
+}
+.infosection img{
+   border-top-right-radius: 10px;
+    border-top-left-radius:10px;
+    object-fit: none;
+    object-position:60% 20%;
+    height:317px;
+    width:317px;      
+}
+.name
+{
+ color: white;
+font-size: 25px;
+ font-style: bold;
+ font-weight: 400;
+ margin:10px;
+
+}
+.profession
+{
+  color:#F3BF99;
+  font-size: 12.5px;
+ font-style: regular;
+ font-weight: 100;
+ margin-top: -10px;
+ padding:5px;
+ 
+}
+.website
+{
+  color: #F5F5F5;
+  font-size: 10.2px;
+ font-style: regular;
+ font-weight: 100;
+}
+.socialButtons
+{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding:10px;
+  margin:10px;
+}
+.socialButtons button
+{
+  width:115px;
+  height:34px;
+  border-radius: 6px;
+  padding: 9px;  
+}
+.emailBtn
+{
+  background: white;
+}
+.linkedInBtn
+{
+  background: #5093E2;
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 100;
+  color: white
+}
+.fa-solid, .fa-brands
+{
+  padding-right:9.6px;
+}
+.aboutsection, .interestsection
+{
+  color:white;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.aboutsection h3, .interestsection h3
+{
+  margin: 10px 0px;
+  font-weight: 700;  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutsection p, .interestsection p
+{ 
+  font-weight: 400;
 }
+.footersection
+{
+ display: flex;
+ text-align: center;
+  margin:10px;
+  justify-content:space-around;
+  padding:19px;
+
+}
+.footersection div{ 
+  background-color: #918E9B;
+  width:25px;
+  height:25px;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+.footersection div i{
+  object-fit:cover;
+}
+
