@@ -1,6 +1,7 @@
 # Digital Business Card
 
 ## Deployed Link
+https://sanjana-1604.github.io/Business_Card/
 
 ## Description
 Frontend Developer digital business card created using ReactJS. It is a small introduction about self and provide links to all the major social media platform accounts to access.
